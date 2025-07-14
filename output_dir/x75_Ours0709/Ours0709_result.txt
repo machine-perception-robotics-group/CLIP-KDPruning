@@ -1,0 +1,25 @@
+Replacing opencv (conda) with opencv-python-headless (pip)...
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: opencv-python-headless in /home/miki/.local/lib/python3.8/site-packages (4.11.0.86)
+Requirement already satisfied: numpy>=1.17.3 in /opt/miniconda/envs/upop/lib/python3.8/site-packages (from opencv-python-headless) (1.22.3)
+Installing nltk==3.7 and downloading punkt...
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: nltk==3.7 in /home/miki/.local/lib/python3.8/site-packages (3.7)
+Requirement already satisfied: tqdm in /opt/miniconda/envs/upop/lib/python3.8/site-packages (from nltk==3.7) (4.64.0)
+Requirement already satisfied: click in /opt/miniconda/envs/upop/lib/python3.8/site-packages (from nltk==3.7) (8.1.3)
+Requirement already satisfied: regex>=2021.8.3 in /opt/miniconda/envs/upop/lib/python3.8/site-packages (from nltk==3.7) (2022.7.25)
+Requirement already satisfied: joblib in /opt/miniconda/envs/upop/lib/python3.8/site-packages (from nltk==3.7) (1.1.0)
+Checking GPU availability...
+CUDA Available: True
+Device: NVIDIA A100 80GB PCIe
+Listing data directory:
+__init__.py
+__pycache__
+coco_karpathy_dataset.py
+flickr30k_dataset.py
+nlvr_dataset.py
+nocaps_dataset.py
+pretrain_dataset.py
+utils.py
+video_dataset.py
+vqa_dataset.py

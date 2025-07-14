@@ -1,0 +1,19 @@
+
+
+pretrained
+datasets/
+dataset/
+annotation/
+ann/
+
+
+*.pt
+*.pth
+*.png
+
+# コンテナ・仮想環境ファイル
+kdprune.sif
+sensesync
+srun*
+tmp*
+
