@@ -62,5 +62,16 @@ python3 -m torch.distributed.run --nproc_per_node=4  CLIP_compress.py --p 0.75 -
 |UPop|13.55|43.64|
 |Ours|33.81|47.41|
 
+### モデルパス
+
+枝刈り後のモデルは以下のリンクからダウンロードできます：
+
+| 手法 | モデルリンク |
+|:----:|:------------:|
+| UPop | [Google Drive](https://drive.google.com/file/d/1DTYmRQHc4sYmDxoaf91gRc5hAjS5iNG7/view?usp=drive_link) |
+| Ours | [Google Drive](https://drive.google.com/file/d/1HstQP1hUZ28ApS0yHcXxAO9FZAzbF4uD/view?usp=drive_link) |
+
 ### 参考にしたリポジトリ
+
+- [UPop: CLIPにおけるモーダル間の知識蒸留による構造化枝刈り](https://github.com/sdc17/UPop)
 
