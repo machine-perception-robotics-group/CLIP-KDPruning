@@ -50,17 +50,25 @@ python3 -m torch.distributed.run --nproc_per_node=4  CLIP_compress.py --p 0.75 -
 
 **タスク：Image→Text検索 Top1性能**
 
-|    | 枝刈り直後 | ファインチューニング後|
-|:--:|:--------:|:------------------:|
-|UPop|16.70|60.02|
-|Ours|35.96|62.16|
+<div align="center">
+
+| 手法 | 枝刈り直後 | ファインチューニング後 |
+|:----:|:----------:|:----------------------:|
+| UPop | 16.70 | 60.02 |
+| Ours | 35.96 | 62.16 |
+
+</div>
 
 **タスク：Text→Image検索 Top1性能**
 
-|    | 枝刈り直後 | ファインチューニング後|
-|:--:|:--------:|:------------------:|
-|UPop|13.55|43.64|
-|Ours|33.81|47.41|
+<div align="center">
+
+| 手法 | 枝刈り直後 | ファインチューニング後 |
+|:----:|:----------:|:----------------------:|
+| UPop | 13.55 | 43.64 |
+| Ours | 33.81 | 47.41 |
+
+</div>
 
 ### モデルパス
 
@@ -73,5 +81,5 @@ python3 -m torch.distributed.run --nproc_per_node=4  CLIP_compress.py --p 0.75 -
 
 ### 参考にしたリポジトリ
 
-- [UPop: CLIPにおけるモーダル間の知識蒸留による構造化枝刈り](https://github.com/sdc17/UPop)
+- [UPop](https://github.com/sdc17/UPop)
 
