@@ -54,5 +54,6 @@ singularity exec --nv \
   --pretrained pretrained/clip_large_retrieval_coco.pth \
   --config ./configs/retrieval_coco_clip.yaml \
   --output_dir output_dir/analysis_test \
+  --analyze_top_k \
   --KD > output_dir/clip_analysis_log.txt
 '
