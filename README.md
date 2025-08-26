@@ -106,6 +106,7 @@ python3 -m torch.distributed.run --nproc_per_node=1 CLIP_compress_analysis.py \
 
 #### 枝刈り直後のモデル（サンプル）
 枝刈り直後のモデル（ファインチューニング前）は以下のリンクからダウンロードできます：
+clip/model.pyのマスクをかける部分を修正する必要があります．
 
 | 手法 | モデルリンク |
 |:----:|:------------:|
